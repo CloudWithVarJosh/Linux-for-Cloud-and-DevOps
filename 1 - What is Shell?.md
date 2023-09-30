@@ -16,26 +16,31 @@ The `~` you see at the end i.e. after 89 signifies I'm in the home directory of 
 
 ## Few Basic Commands
 
- 1. **hostnamectl** 
+- **hostnamectl** 
  `hostname` command we have already seen `hostnamectl` can be used to get a lot more information
+
 ![Alt text](/images/hostnamectl.png)
 
- 2. **free**
+- **free**
  `free` gives us the memory statistics (total, used, and free memory). You can add `-h` to it to make it human-readable.
+
 ![Alt text](/images/free.png)
  
- 3. **cal**
+ - **cal**
  `cal` displays the calendar
+
 ![Alt text](/images/cal.png)
  
- 4. **date**
+- **date**
  `date` displays today's date, based on your system's configuration.
+
 ![Alt text](/images/date.png)
  
- 5. **df**
+- **df**
  `df` stands for *disk free*. It tells you the amount of free disk space.
+
 ![Alt text](/images/df.png)
 
- 6. **history**
- A cool feature of the shell is command history. Most distros will remember last 1000 commands by default. You can type history to see the previously executed commands.
+- **history**
+ A cool feature of the shell is command history. Most distros will remember the last 1000 commands by default. You can type `history` to see the previously executed commands.
  You can navigate through the command history using the up and down arrows, and press enter to execute the displayed command.
