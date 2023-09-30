@@ -4,7 +4,7 @@
 - A popular shell program is bash. Bash is an acronym for **b**ourne-**a**gain **sh**ell.
 - You see bash is an enhanced version of sh. And sh is the original shell program written by Stephen Bourne.
 
-What you see at the bottom right is a shell prompt. Typically you would see username@hostname followed by the current working directory. At the end you see a dollar`$`, if you see a hash `#` instead of a Dollar `$` it implies you are logged in as a superuser (often root).
+What you see in the snip below is a shell prompt. Typically you would see username@hostname followed by the current working directory. At the end you see a dollar`$`, if you see a hash `#` instead of a Dollar `$` it implies you are logged in as a superuser (often root).
 You can check the hostname of your machine by typing `hostname`.
 
 In the picture below the user with which I have logged in is "ec2-user" and the hostname of the instance is ip-172-31-36-89. I'm working with an Amazon EC2 instance and that is the format in which AWS assigns hostnames when an instance is launched. There is another format called, *Resource name*, that AWS uses to assign hostnames but that is outside of what we are discussing right now.
