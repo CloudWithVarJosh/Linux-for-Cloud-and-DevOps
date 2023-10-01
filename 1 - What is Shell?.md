@@ -1,3 +1,5 @@
+[Click to access the associated YouTube video for this lesson](https://www.youtube.com/watch?v=6IbSVeGS_WY&list=PLmPit9IIdzwQl1kuuoEhG38DC3cdbqZHB&index=1&t=33s&ab_channel=CloudWithVarJosh)
+
 # What is shell?
 
 - Shell takes commands and passes them to the Operating System (OS), it is an interface between you and the OS. When I say CLI (which is an acronym for command line interface), command line, it all refers to the shell.
