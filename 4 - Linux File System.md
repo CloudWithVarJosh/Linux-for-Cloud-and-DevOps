@@ -44,21 +44,21 @@ At the top, there is the root directory.
 
 ![Alt text](/images/4-file-8.png)
 
-`/root`: Home directory of the superuser root.
-`/boot`: Contains files required to boot the system.
-`/etc`: directory contains all the system-wide configuration files. Basically, every single kind of configuration file is located in /etc, including but not limited to system configuration files
-`/mnt`: This directory is used for mounting temporary file systems.
-`/proc`: The “files” it contains are peepholes into the kernel itself. The files are readable and will give you a picture of how the kernel sees your computer.
-`/sys`: Contains information about devices, drivers, and some kernel features.
-`/dev`: Linux places all special files, remember we saw this file type a while ago, under the `/dev` directory.
-`/home`: In normal configurations, each user is given a directory in /home. A user has full permissions in its home directory. Like home directory of ec2-user is `/home/ec2-user`.
+- `/root`: Home directory of the superuser root.
+- `/boot`: Contains files required to boot the system.
+- `/etc`: directory contains all the system-wide configuration files. Basically, every single kind of configuration file is located in /etc, including but not limited to system configuration files
+- `/mnt`: This directory is used for mounting temporary file systems.
+- `/proc`: The “files” it contains are peepholes into the kernel itself. The files are readable and will give you a picture of how the kernel sees your computer.
+- `/sys`: Contains information about devices, drivers, and some kernel features.
+- `/dev`: Linux places all special files, we saw this file type a while ago, under the `/dev` directory.
+- `/home`: In normal configurations, each user is given a directory in /home. A user has full permissions in its home directory. Like home directory of ec2-user is `/home/ec2-user`.
 
-`/usr`: Acronym for *User System Resources*. `/usr` usually contains by far the largest share of data on a system. This directory contains most commands and executable files, libraries, and documentation. `/usr` is a place for system-wide, read-only files. So all your installed software goes here.
-`/usr/bin`: contains non-essential binaries.
-`/usr/sbin`: similar to `/usr/bin`, but binaries here are intended to be used by the superuser root. Whenever you see `/sbin` or `/usr/sbin` think superuser.
-`/bin`: contains essential binaries that are required by the system for emergency repairs, booting, and single-user mode. For this reason and in contrast to `/usr/bin`, the binaries in this directory are considered to be essential. Examples include `ls`, `cat`, `cp` (which is used to copy files). 
-`/sbin`: similar to `/bin`, but the binaries present here are intended to be used by the superuser root.
+- `/usr`: Acronym for *User System Resources*. `/usr` usually contains by far the largest share of data on a system. This directory contains most commands and executable files, libraries, and documentation. `/usr` is a place for system-wide, read-only files. So all your installed software goes here.
+- `/usr/bin`: contains non-essential binaries.
+- `/usr/sbin`: similar to `/usr/bin`, but binaries here are intended to be used by the superuser root. Whenever you see `/sbin` or `/usr/sbin` think superuser.
+- `/bin`: contains essential binaries that are required by the system for emergency repairs, booting, and single-user mode. For this reason and in contrast to `/usr/bin`, the binaries in this directory are considered to be essential. Examples include `ls`, `cat`, `cp` (which is used to copy files). 
+- `/sbin`: similar to `/bin`, but the binaries present here are intended to be used by the superuser root.
 
-`/lib`: lib is short for *library*. Keeping Linux aside. A library in programming is a collection of prewritten code that programmers can use to optimize tasks.  The library is a component that the main program needs to run properly. If a binary or executable in `/bin` or `/sbin` needs a library that library is likely in `/lib`.
+- `/lib`: lib is short for *library*. Keeping Linux aside. A library in programming is a collection of prewritten code that programmers can use to optimize tasks.  The library is a component that the main program needs to run properly. If a binary or executable in `/bin` or `/sbin` needs a library that library is likely in `/lib`.
 You would see people use different terminologies, but for all intent and purposes: binaries, executables, and programs imply the same.
-`/var`: This directory contains system logs and other various variable data.
+- `/var`: This directory contains system logs and other various variable data.
