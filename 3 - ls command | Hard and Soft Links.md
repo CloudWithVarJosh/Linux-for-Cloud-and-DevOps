@@ -13,6 +13,8 @@ Remember we discussed `~` represents the home directory of the logged-in user. Y
 
 ![Alt text](/images/3-ls-1.png)
 
+
+
 The output we have seen thus far is precise, if we want a long format output we can use `ls -l`. `-l` is an option that can used with the ls command. 
 >Options allow us to modify the behavior of a command. And they are case-sensitive.
 
