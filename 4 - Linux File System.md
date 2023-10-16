@@ -26,19 +26,27 @@ We will discuss the pipe `|` and `grep` in greater detail in later lessons. But 
 
 The command you see in the below snip says, do `ls -l` in the `/dev` directory, whatever output you get filter or grep the lines where the first character is the letter **c**. The first character is achieved by using the caret `^` symbol. From the output you get now show me the first line only. This is the reason you only see 1 line. Try to run `ls -l` on the `/dev` directory and see how lengthy the output is.
 You would often see admins using `grep` and `|` in conjunction.
+
 ![Alt text](/images/4-file-3.png)
 
  - **Block files:** These are denoted by the letter **b**. A block file is a hardware file that reads/writes data in blocks instead of character by character. This type of file is very useful when we want to read/write data in bulk fashion. All our disks such are HDDs, SSDs, USBs, and CDROMs are block devices.
+
  ![Alt text](/images/4-file-4.png)
+ 
  - **Link files:** These are denoted by the letter l. These depict hard and symbolic links.
+
  ![Alt text](/images/4-file-5.png)
+ 
  - **Named pipes:** These are denoted by the letter **p**. It is a file used by two processes to communicate with each other and acts as a Linux pipe. It operates as a bidirectional communication channel, where one process writes data to the pipe, and another process reads it. It enables communication between processes without the need for shared memory or explicit socket connections.
+
 ![Alt text](/images/4-file-6.png)
+
 - **Linux socket files:** These are denoted by the letter s. Let's first understand what a socket is in general, forget Linux for a while. A socket passes data between 2 processes. If Process-A in System-1 wants to speak to Process-B in System-2, it connects to the socket of Process-B in System-2. A socket has an IP address and a port number using which a client can connect to a server.
 
 Coming to Linux Socket files, When it comes to intra-server communication i.e. local communication, Linux uses socket files. Socket files allow applications of the local system to exchange data without going through the complex process of networking and sockets.
 Hence, Socket files are the special files that use a file name as their address instead of an IP address and port number. 
 Sockets provide a mechanism for processes to exchange data, similar to named pipes or network sockets.
+
 ![Alt text](/images/4-file-7.png)
 
 # Linux Directory Structure
