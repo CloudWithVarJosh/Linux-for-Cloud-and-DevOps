@@ -69,7 +69,7 @@ For eg. If I create a file with the name `file1` and write `foo` in `file1` then
 
 ![Alt text](/images/3-ls-4.png)
 
-We can use the cat command to see the contents of a file. cat file1 shows me the contents of file1.
+We can use the cat command to see the contents of a file. `cat file1` shows me the contents of file1.
 The syntax for creating hard links is `ln <original file path> <new file path>`
 
 So let us create a hard link to `file1`: I will type `ln ~/file1 /tmp/file1_hl`. Here I'm creating the hard link to `file1` in the `tmp` directory.
