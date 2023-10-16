@@ -15,7 +15,7 @@ Remember we discussed `~` represents the home directory of the logged-in user. Y
 
 
 
-The output we have seen thus far is precise, if we want a long format output we can use `ls -l`. `-l` is an option that can used with the ls command. 
+The output we have seen thus far is precise, if we want a long format output we can use `ls -l`. `-l` is an option that can be used with the ls command. 
 >Options allow us to modify the behavior of a command. And they are case-sensitive.
 
 There are a plethora of options that we can use with ls. We can use `ls --help` to see all of them.
