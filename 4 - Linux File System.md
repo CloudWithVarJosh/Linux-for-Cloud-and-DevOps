@@ -13,7 +13,7 @@ You can use the `file` command or `ls -l` to identify the type of a file. The fi
 ![1](https://github.com/CloudWithVarJosh/Linux-for-Cloud-and-DevOps/blob/main/images/4-file-1.png)
 
  3. **Directories:** These are files that help create a hierarchy. Directories are also files. but instead of storing data, they store the location of other files.
- ![Alt text](/images/4-file-2.png)
+ ![2](https://github.com/CloudWithVarJosh/Linux-for-Cloud-and-DevOps/blob/main/images/4-file-2.png)
 
  4. **Special Files:** Linux treats all hardware devices (such as hard drives, SSDs, printers, monitors, floppy drives terminal emulators, and CD/DVD drives) as special files. 
 
