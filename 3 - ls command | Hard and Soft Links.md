@@ -54,7 +54,7 @@ The following snip explains the output of the command:
 
 We will discuss file types and permissions in later lessons, but I want to give you a one-line about **`-rw-rw-r--`** which constitutes 10 characters. The first character denotes the file type and the remaining 9 character represents the file permissions.
 
-- The first `-` signifies it is a file, a directory will have a `d` here like directory1 has it.
+- The first `-` signifies it is a file, a directory will have a `d` here like `directory1` has it.
 - The first triplet i.e. `rw-`, shows the permissions of the owner on the file
 - The second triplet i.e. `rw-` shows the permissions of the group on the file. The group will have members. Most Linux distros will create a group with the same name as the user and add that user to that group, here you can see a group with the name ec2-user created. 
 - The third and the final triplet show the permission for everyone else (or others) on file2.
