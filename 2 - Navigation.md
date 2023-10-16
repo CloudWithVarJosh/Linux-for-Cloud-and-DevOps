@@ -5,7 +5,7 @@
 
 Everything falls under the root of the file system. Root is depicted by a forward slash `/`. You would often hear people call this the root directory. 
 
-> I have seen people getting confused between forward (/) and backward (\)
+> I have often seen people getting confused between forward `/` and backward `\`
 > slash. This may sound trivial but when the **top part** of a slash bends
 > forward it is called a forward slash `/`.
 
