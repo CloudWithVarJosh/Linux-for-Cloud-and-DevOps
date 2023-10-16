@@ -9,13 +9,14 @@ There are broadly 3 types of files:
 
  1. **Regular or Ordinary files:** like `file1` and `file2` that we saw in the previous lesson. Any binaries, video files, text files, images, tar files, CSVs, compressed files, etc. fall under this category.
 You can use the `file` command or `ls -l` to identify the type of a file. The first character in the output, which is `-` for regular files, tells the type of a file when you use `ls -l`.
-![Alt text](/images/4-file-1.png)
+
 ![1](https://github.com/CloudWithVarJosh/Linux-for-Cloud-and-DevOps/blob/main/images/4-file-1.png)
 
- 3. **Directories:** These are files that help create a hierarchy. Directories are also files. but instead of storing data, they store the location of other files.
+ 2. **Directories:** These are files that help create a hierarchy. Directories are also files. but instead of storing data, they store the location of other files.
+
  ![2](https://github.com/CloudWithVarJosh/Linux-for-Cloud-and-DevOps/blob/main/images/4-file-2.png)
 
- 4. **Special Files:** Linux treats all hardware devices (such as hard drives, SSDs, printers, monitors, floppy drives terminal emulators, and CD/DVD drives) as special files. 
+ 3. **Special Files:** Linux treats all hardware devices (such as hard drives, SSDs, printers, monitors, floppy drives terminal emulators, and CD/DVD drives) as special files. 
 
 Special files can be further categorized into 5 types:
 
