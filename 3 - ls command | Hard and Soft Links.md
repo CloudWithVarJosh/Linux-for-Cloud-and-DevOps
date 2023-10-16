@@ -125,3 +125,5 @@ The following snip shows a situation when the original file to which the symlink
 > You would often hear symbolic links referred to as **soft** links. Refrain
 > from calling them soft links as the Linux community doesn't like this
 > term.
+
+> In summary: A Symbolic is a reference by name to the original file, while a hard link is a direct reference to the file. A soft link acts as a pointer to the file name, and becomes invalid if the original file is deleted. A hard link acts as a copy of the file, and accesses the data available in the original file, even if the original file is deleted
