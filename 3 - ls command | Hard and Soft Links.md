@@ -59,7 +59,7 @@ We will discuss file types and permissions in later lessons, but I want to give 
 - The second triplet i.e. `rw-` shows the permissions of the group on the file. The group will have members. Most Linux distros will create a group with the same name as the user and add that user to that group, here you can see a group with the name ec2-user created. 
 - The third and the final triplet show the permission for everyone else (or others) on file2.
 
-Just so you know r stands for read, w stands for write and the 3rd character is for execute, which you see is missing in all the 3 triplets, but it is there in directory1.
+Just so you know `r` stands for read, `w` stands for write and the 3rd character is for execute `x`, which you see is missing in all the 3 triplets, but it is there in directory1.
 
 
 # Hard and Symbolic Links
