@@ -40,10 +40,10 @@ For e.g. `ls -l directory1`
 ## Understanding `ls -lthr` output
 
 A few of the flags that you'll use all the time with `ls` are `-lthr`
-`l` stands for long listing
-`t` stands for sort by modification time, and newest first.
-`h` stands for, you guessed it right, to make the file or directory size human-readable.
-`r` stands for reverse order while sorting
+- `l` stands for long listing
+- `t` stands for sort by modification time, and newest first.
+- `h` stands for, you guessed it right, to make the file or directory size human-readable.
+- `r` stands for reverse order while sorting
 And you can read about the rest of the available options using `ls --help`
 
 ![Alt text](/images/3-ls-2.png)
