@@ -26,7 +26,7 @@ Options are of 2 types:
  2. Long
 
 **Short** options are preceded by a single `-` and many commands allow multiple short options to be strung together.
-**Long** options are preceded by double (`--`) hyphens.
+**Long** options are preceded by double `--` hyphens.
 
 The format of the command looks like this: `command -options argument`
 For e.g. `ls -l directory1` 
