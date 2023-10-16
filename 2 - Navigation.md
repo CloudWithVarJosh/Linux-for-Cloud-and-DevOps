@@ -22,8 +22,6 @@ Below is a graphical representation of an upside-down tree, what you see under t
 
 ## Absolute Path
 
-> Refer to the snip `Absolute and Relative Path` while reading this section.
-
 Think of it as an exact or complete path, hence it always begins from the root `/` because, as we discussed at the beginning, everything falls under the root.
 
 I'm currently in the home directory of the `ec2-user`, we can check that by using `pwd`. If I want to go to `/usr/share/doc` then I use `cd /usr/share/doc`, since the path I used **begins with `/`** it is called an absolute path.
@@ -34,7 +32,6 @@ If you wish to go back to the previous working directory, which in our case is t
 
 
 ## Relative Path
-> Refer to the snip `Absolute and Relative Path` while reading this section.
 
 Think of it as a shortcut. Relative path starts from the current working directory i.e. where you are in file system tree. Let's visit `/usr/share/doc` again. If I type `pwd` I can see I'm in the `doc` directory. You also see the current working directory listed in the prompt like we discussed in our previous lesson.
 
