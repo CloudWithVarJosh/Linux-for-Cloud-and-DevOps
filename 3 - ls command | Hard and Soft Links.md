@@ -76,7 +76,7 @@ So let us create a hard link to `file1`: I will type `ln ~/file1 /tmp/file1_hl`.
 
 ![Alt text](/images/3-ls-5.png)
 
-If I do `ls -l file1` I see this file now has 2 hard links. The 1st was automatically created when the file1 was first created and the 2nd one we just created. Similarly, if I do `ls -l /tmp/file1_hl` I see 2 hard links. 
+If I do `ls -l file1` I see this file now has 2 hard links. The 1st was automatically created when file1 was first created and the 2nd one we just created. Similarly, if I do `ls -l /tmp/file1_hl` I see 2 hard links. 
 Here we know `file1` and `file1_hl` are hard-linked, but if you find two files with identical properties but are unsure if they are hard-linked, use the `ls -i` command to view the inode number. 
 
 > Files that are hard-linked together share the same inode number.
@@ -87,12 +87,12 @@ Here we know `file1` and `file1_hl` are hard-linked, but if you find two files w
 Every file in Linux gets an inode. Inodes in Linux store metadata for every file on your system. Metadata like the location of the file on the disk, permissions, size, owner/group info. and much more. They store all the information except the file name and the actual data.
 
 Hard links essentially point to the same inode number. We can check the inode number using `ls -i.`
-`ls -li file1 /tmp/file1_hl` gives me a long listing because I used the -l option and also the inode because I used the `-i` option. You see I just **chained 2 short options** together. 
+`ls -li file1 /tmp/file1_hl` gives me a long listing because I used the `-l` option and also the inode because I used the `-i` option. You see I just **chained 2 short options** together. 
 What we see in the output is, we have the same inode no., which implies they have the same data. 
 
 ![Alt text](/images/3-ls-7.png)
 
-Since they point to the same inode, if I change content of `file1`, then `file1_hl` will also show the changed content. Let's add another line to `file1`: `echo "bar" >> file1`.
+Since they point to the same inode, if I change the content of `file1`, then `file1_hl` will also show the changed content. Let's add another line to `file1`: `echo "bar" >> file1`.
 I will `cat file1` now and I see `foo bar`. Now let's `cat /tmp/file1_hl` and I see the same content.
 
 ![Alt text](/images/3-ls-8.png)
