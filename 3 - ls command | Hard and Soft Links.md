@@ -84,7 +84,7 @@ Here we know `file1` and `file1_hl` are hard-linked, but if you find two files w
 ![Alt text](/images/3-ls-6.png)
 
 **What is an inode?**
-Every file in Linux gets an inode. Inodes in Linux stores metadata for every file on your system. Metadata like the location of the file on the disk, permissions, size, owner/group info. and much more. They store all the information except the file name and the actual data.
+Every file in Linux gets an inode. Inodes in Linux store metadata for every file on your system. Metadata like the location of the file on the disk, permissions, size, owner/group info. and much more. They store all the information except the file name and the actual data.
 
 Hard links essentially point to the same inode number. We can check the inode number using `ls -i.`
 `ls -li file1 /tmp/file1_hl` gives me a long listing because I used the -l option and also the inode because I used the `-i` option. You see I just **chained 2 short options** together. 
